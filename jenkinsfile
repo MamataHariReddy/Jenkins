@@ -33,14 +33,14 @@ agent any
 		    '''
                 }
             }
-	    stage('process command'){
-                steps{
-                    sh '''
-                    echo "Process command"
-                    ps -ef | tail -5 
-                    '''
-                }
-            }
+
+
+
+
+
+
+
+
 
         }
 }
